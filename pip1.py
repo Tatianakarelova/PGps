@@ -1,4 +1,4 @@
-def leapyr(x):
+def is_leap_year(x):
     if x % 400 == 0:
         return True
     if x % 100 == 0:
@@ -7,4 +7,4 @@ def leapyr(x):
         return True
     else:
         return False
-print ( leapyr(2020))
+print (is_leap_year(1900))
